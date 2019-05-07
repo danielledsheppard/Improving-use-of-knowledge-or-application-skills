@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111110111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+  <layouts>
+    <layout name="npnxnanbsnfns11111110111" font="Lato" controllayout="npnxnanbsnfns11111110111" colorscheme="pxabnsnfns11111110111" string_table="pxabnsnfns11111110111" />
+    <layout name="pxabnsnfns11111110111" font="Lato" controllayout="pxabnsnfns11111110111" colorscheme="pxabnsnfns11111110111" string_table="pxabnsnfns11111110111" />
+    <layout name="npxnabnsnfns11111110111" font="Lato" controllayout="npxnabnsnfns11111110111" colorscheme="pxabnsnfns11111110111" string_table="pxabnsnfns11111110111" />
+    <layout name="npnxnanbnsnfns11111110111" font="Lato" controllayout="npnxnanbnsnfns11111110111" colorscheme="pxabnsnfns11111110111" string_table="pxabnsnfns11111110111" />
+    <layout name="pxabnsnfns11111110110" font="Lato" controllayout="pxabnsnfns11111110110" colorscheme="pxabnsnfns11111110111" string_table="pxabnsnfns11111110111" />
+    <layout name="pnxanbnsnfns11111110111" font="Lato" controllayout="pnxanbnsnfns11111110111" colorscheme="pxabnsnfns11111110111" string_table="pxabnsnfns11111110111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Improving your use of knowledge or application skills" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content\5bjrsbboZ0h_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/6QohB5SOQln.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Close" />
+                  <property name="data" value="6RG3Dv21WLG" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Home" />
+                  <property name="data" value="5vgXphOZq99" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="true" />
+              <option name="readonlyOnce" value="true" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111110110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns11111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111110111">
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x404040" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x323232" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAAAAAA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7B7B7B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1B1B1B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4F81BD" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1B1B1B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x323232" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111110111">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.62QZcZEtrOw" displaytext="Introduction Slide" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.62QZcZEtrOw.6Nlw1hwNZSo" displaytext="Home" expand="false" type="slide" />
+            <slidelink slideid="_player.62QZcZEtrOw.5amSSEpSecc" displaytext="Breaking Down Use of Knowledge Questions" expand="false" type="slide" />
+            <slidelink slideid="_player.62QZcZEtrOw.5VCMlROPq2J" displaytext="Example" expand="false" type="slide" />
+            <slidelink slideid="_player.62QZcZEtrOw.5tjngVw0I0P" displaytext="Breaking it down example" expand="false" type="slide" />
+            <slidelink slideid="_player.62QZcZEtrOw.6gpmeD0yraZ" displaytext="Options case study or simulation" expand="false" type="slide" />
+            <slidelink slideid="_player.62QZcZEtrOw.5ltB1dWCUOR" displaytext="Simulation options" expand="false" type="slide" />
+            <slidelink slideid="_player.62QZcZEtrOw.6dj0X4MOtAd" displaytext="Case Study options" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6mP7aDwoBrI" displaytext="Digestion " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6mP7aDwoBrI.6BtG6uYJgza" displaytext="Digestion 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6r5Pff88Zv2" displaytext="Food nutrient that amylase breaks down?" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6kNwn9ToklO" displaytext="Where is amylase found in the digestive system" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6EVjZ6ryqRC" displaytext="Moving on to digestion 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6NFNTfikZaz" displaytext="Digestion two" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.604sgbT1GKz" displaytext="What were your observations?" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.5vjwuiRAAxQ" displaytext="Digestion three" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6hE7YnVWmJQ" displaytext="What were your observations?" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.5ZtzEXVwQmm" displaytext="Digestion four" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.5krhtEye5vH" displaytext="What were your observations?" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.60sQ9ZAobpj" displaytext="Digestion five" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6kvqO9qwvh6" displaytext="Make a guess.  What do you think will happen with the benedict solution test?" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.5nWSGjonN6o" displaytext="Digestion six" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6UT25oQB9Dx" displaytext="Intro to experiment explanation" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6M0m9Afot8p" displaytext="Explain why the different colour changes were seen after the test with the benedict solution" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.5lcdyPa4yKG" displaytext="From your results in which pH does amylase work best in?" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6FK060fRxwo" displaytext="Why does amylase work best in the mouth and in the small intestines?" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6bqqfSsKZ2j" displaytext="Basic knowledge" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6nDBRRUKBUX" displaytext="Name the enzymes found in the stomach" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.5csNdWitRBV" displaytext="Name the enzymes found in the small intestines" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.5YI0hUp2vNJ" displaytext="Now that you have named the enzymes.  Lets match the enzymes to the functions" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.5ZNPNmmv8Z4" displaytext="Digestion application" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6ZiXDU77N6K" displaytext="You had a ham sandwich for lunch.  Where in the digestion would the sandwich be broken down.  Explain your answer." expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.6JCUtYyrqqC" displaytext="Liver" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.61OGvJGAKTU" displaytext="If your liver is not working why should you cut down on your intake of fatty foods?" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.65hoUN4kxSf" displaytext="Antacids" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.5lVfDU8tcaf" displaytext="Explain to Kristen the scientific principle by which the dica worked to treat the problem." expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.62cjFHL53LZ" displaytext="Commendation" expand="false" type="slide" />
+            <slidelink slideid="_player.6mP7aDwoBrI.61aKhFANiIm" displaytext="EXIT COURSE" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5dKmCm7UhJa" displaytext="The fooballer" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5dKmCm7UhJa.6aqV7jX9o1G" displaytext="The Footballer" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.6NUjA4YNubU" displaytext="Footballer at the doctor" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.5mO9lskNNRs" displaytext="Video instruction" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.5y8gWjOG4L1" displaytext="Video on balanced diet" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.5xuXO38oJpv" displaytext="Now that you have watched that interesting video lets see what you would have gathered.  So, what is a balanced diet and what must be looked at when considering balanced diets for individuals?" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.6BrYwTN0CCt" displaytext="Footballer calling doctor" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.6jEDWmQBPrY" displaytext="Footballer at home" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.5jFjuhEUZvp" displaytext="Below are three meal plans that are high in different nutrients.  From your research select which meal plan would be best for  Joseph?" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.61ut5iRTHl8" displaytext="Now its time to explain why meal options A or C is the best choice for Joseph." expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.6ERy5i87bEN" displaytext="Name two other food nutrient that Joseph can add to his diet to make it more balanced and explain why those nutrients were selected." expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.6ZFe6F435Xb" displaytext="Moving on" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.6XXAmXabTDZ" displaytext="Which menu option that is best suited for a an athlete and carpenter?" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.5y0S1TYWlTD" displaytext="Now explain why option C is the best menu for the Joseph" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.6Zpaj0PVKlY" displaytext="Grandmother" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.6S9bOUmOaA8" displaytext="Below is a list of criteria for selecting food. Select the TWO MOST important criteria for Ms. Lee, Joseph’s   grandmother." expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.5bsR3ErhM82" displaytext="Now, explain why vitamins and minerals, and softness of food are correct when selecting food for Ms. Lee." expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.6gij79RKwR9" displaytext="Grandma and grandchild" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.6LKDp25OaGH" displaytext="Below is a list of criteria for selecting food. Select the TWO MOST important criteria for Ms. Lee, 5 year old grand child." expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.5mZNMKlSLFb" displaytext="Now, explain why vitamin and mineral content as well as energy content is important to consider when selecting food for a 5 year old?" expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.64RrCV8NdZn" displaytext="Final footballer " expand="false" type="slide" />
+            <slidelink slideid="_player.5dKmCm7UhJa.5ljO1iLWCwn" displaytext="EXIT COURSE" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5gnt21bdFBU" displaytext="The Farmer" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5gnt21bdFBU.5uTcviSJylU" displaytext="Farmer" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.5tbU8RltjuA" displaytext="The Farmer" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.5hkpoV7VAKn" displaytext="Review help" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.6nOfjHriagT" displaytext="What is the science concept needed here?" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.6qOO505M38Y" displaytext="Food groups and types of food that the nutrient can be found in?" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.5mDvJfUPvX8" displaytext="Putting it together Give the type of foods groups that should be in the farmers diet and why." expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.6KMUNb0jsVe" displaytext="Moving on to menu options" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.5xWLDvIbeJ5" displaytext="Now that you have thought outside the box and placed it all together look at the images below and select which menu would be the best option for our farmer" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.6bx6u3KEqad" displaytext="Fully explain why menu C is the correct menu option for the farmer" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.6NcBp0699XW" displaytext="Farmer and wife at home" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.61wKQIssspw" displaytext="Farmer and wife at the doctor" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.5hgJr0qMWGO" displaytext="Farmer and wife at the doctor continue" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.6ae1fygjVrE" displaytext="Food Nutrients that should be eating in extra amounts by a pregnant woman" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.5g5TIy3hSwQ" displaytext="After doing some research on nutrients and benefits for her and baby during pregnancy.  The farmer’s wife decided to try and match nutrients to the benefits.  See if you can help her." expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.6SWuj5vYvni" displaytext="Now that you have matched the nutrients to the benefits, let’s look at the food sources to go with each nutrient." expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.6Mq3dvCuqVp" displaytext="Which menu option that is best suited for a pregnant woman?" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.5wVFAw9g0Xc" displaytext="Give the reason for the menu B option being the best suited for a pregnant woman?" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.5aaLWIQeucI" displaytext="From your research conducted, what will your body do if you do not take in enough calcium and what will happen to you?" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.6QhHBH0aD87" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.6PNAShXpGoV" displaytext="Let us put it all together in the form of an essay to give the doctor on the research that was done.  In the essay you are required to name at least 5 nutrients needed by the mother, the benefits of the nutrients and the food sources for the different nutrients." expand="false" type="slide" />
+            <slidelink slideid="_player.5gnt21bdFBU.5qfoEa431zc" displaytext="EXIT COURSE" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6nwKQoZuYqs" displaytext="Food Test" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6nwKQoZuYqs.6doxpjkBQBZ" displaytext="Food test 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6XYDPvZ2krN" displaytext="Science concepts for food test" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.5bJlWfG5yCD" displaytext="Benedict solution is used to test for which nutrient?&#xA; Just name the nutrient" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.60w94YbeiiS" displaytext="Iodine is used to test for the presence of which nutrient? Just name the nutrient" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.5jDGG6thTIH" displaytext="Biuret reagent is used to test for what food nutrient? Just name the nutrient" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6lk1DFPWDrn" displaytext="Ethanol can be used to test for which food nutrient? &#xA;Just give the name of the nutrient" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6N5ipZ46GdS" displaytext="Food test experiement intro two" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6LHdQi7JKrP" displaytext="Food test experiment part 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6DKRR8eKzBU" displaytext="Explain why the air hole should be adjusted to change the flame of the Bunsen burner." expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6eOjhAPsTD0" displaytext="Food test part 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.5rvBopPnuvC" displaytext="Lab application" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6hkNQBCnQxg" displaytext="A blue black colour change in the test done with iodine indicates what?" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.5lu0p06mtq6" displaytext="A  purple colour change in the test done with protein indicates what?" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.64U9g0i8fA0" displaytext="What does the observation with the test done using benedict solution mean?" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6abhp4vgI5b" displaytext="What does the observation with the test done using the ethanol mean?" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6epxGS4Jfvc" displaytext="Teenager and body builder" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6JuiYPMplXb" displaytext="Would cashew nuts be a good food source for body builders to include as a snack? &#xA;Remember to give a reason for your answer" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6LI4uGfWaVp" displaytext="As a teenager who is very active what food nutrients should you eat a lot of and why?" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6biSkVL9zox" displaytext="Your mother made dinner for you.  The meal consisted of baked chicken and bread.  Is this a balanced meal for you and give a reason for your response." expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6p96SdJgPcs" displaytext="Introduction to gandma" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6CewkOFCkAF" displaytext="Body and grandmother" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6hIG2GAZFiv" displaytext="Food nutrient that grandma should increase and why.  Examples of the food she needs to eat." expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6icgJmCZREM" displaytext="Commendation food test" expand="false" type="slide" />
+            <slidelink slideid="_player.6nwKQoZuYqs.6XQ5gCrrL1v" displaytext="EXIT COURSE" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="62QZcZEtrOw.6Nlw1hwNZSo" slidebank="false" type="slide">integrated science  improving use of knowledge/ application skills click below to enter: enter enter enter enter enter enter </slidetext>
+      <slidetext slideid="62QZcZEtrOw.5amSSEpSecc" slidebank="false" type="slide">breaking down use of knowledge questions 1. think of the science concepts that can apply 3.  link the science concept to the situation 2. select the best concept to match the situation 4. let’s make the answer flow </slidetext>
+      <slidetext slideid="62QZcZEtrOw.5VCMlROPq2J" slidebank="false" type="slide">example of how to break it down </slidetext>
+      <slidetext slideid="62QZcZEtrOw.5tjngVw0I0P" slidebank="false" type="slide">scientific concepts that might match are: osmosis, diffusion, active transport, passive transport </slidetext>
+      <slidetext slideid="62QZcZEtrOw.6gpmeD0yraZ" slidebank="false" type="slide">simulation simulation simulation simulation simulation simulation case study case study case study case study case study case study which door should i take which door should i take </slidetext>
+      <slidetext slideid="62QZcZEtrOw.5ltB1dWCUOR" slidebank="false" type="slide">simulation food test food test food test food test food test food test digestive system digestive system digestive system digestive system digestive system digestive system which one to select </slidetext>
+      <slidetext slideid="62QZcZEtrOw.6dj0X4MOtAd" slidebank="false" type="slide">case study the farmer the farmer the farmer the farmer the farmer the farmer the footballer the footballer the footballer the footballer the footballer the footballer </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6BtG6uYJgza" slidebank="false" type="slide">effects of ph of salivary amylase experiment </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6r5Pff88Zv2" slidebank="false" type="slide">type your response here: food nutrient that amylase breaks down? </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6kNwn9ToklO" slidebank="false" type="slide">where is amylase found in the digestive system mouth mouth mouth mouth mouth mouth large intestines large intestines large intestines large intestines large intestines large intestines stomach stomach stomach stomach stomach stomach small intestines small intestines small intestines small intestines small intestines small intestines </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6EVjZ6ryqRC" slidebank="false" type="slide">those were your basic introductory questions. now that you are finished with those, lets get back to the experiment. </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.604sgbT1GKz" slidebank="false" type="slide">type observations here what were your observations? </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6hE7YnVWmJQ" slidebank="false" type="slide">type observations here what were your observations? </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.5krhtEye5vH" slidebank="false" type="slide">type observations here what were your observations? </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6kvqO9qwvh6" slidebank="false" type="slide">make a guess.  what do you think will happen with the benedict solution test? test tube a will be the one that shows the most sugar  test tube a will be the one that shows the most sugar  test tube a will be the one that shows the most sugar  test tube a will be the one that shows the most sugar  test tube a will be the one that shows the most sugar  test tube a will be the one that shows the most sugar  test tube b will be the one that shows  the most sugar test tube b will be the one that shows  the most sugar test tube b will be the one that shows  the most sugar test tube b will be the one that shows  the most sugar test tube b will be the one that shows  the most sugar test tube b will be the one that shows  the most sugar test tube c will be the one that shows the most sugar test tube c will be the one that shows the most sugar test tube c will be the one that shows the most sugar test tube c will be the one that shows the most sugar test tube c will be the one that shows the most sugar test tube c will be the one that shows the most sugar </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6UT25oQB9Dx" slidebank="false" type="slide">now its time to explain what happened during the experiment.  then put it in everyday situations. </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6M0m9Afot8p" slidebank="false" type="slide">type your text here explain why the different colour changes were seen after the test with the benedict solution </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.5lcdyPa4yKG" slidebank="false" type="slide">from your results in which ph does amylase work best in? neutral neutral neutral neutral neutral neutral alkaline alkaline alkaline alkaline alkaline alkaline acid acid acid acid acid acid </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6FK060fRxwo" slidebank="false" type="slide">type your response here why does amylase work best in the mouth and in the small intestines? </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6bqqfSsKZ2j" slidebank="false" type="slide">lets look at some basic question before we go into the use of knowledge area.  ready? lets go go, go! </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6nDBRRUKBUX" slidebank="false" type="slide">name the enzymes found in the stomach pepsin pepsin pepsin pepsin pepsin pepsin trypsin trypsin trypsin trypsin trypsin trypsin amylase amylase amylase amylase amylase amylase peptidases peptidases peptidases peptidases peptidases peptidases </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.5csNdWitRBV" slidebank="false" type="slide">name the enzymes found in the small intestines pepsin, amylase pepsin, amylase pepsin, amylase pepsin, amylase pepsin, amylase pepsin, amylase amylase, lipase, pepsin amylase, lipase, pepsin amylase, lipase, pepsin amylase, lipase, pepsin amylase, lipase, pepsin amylase, lipase, pepsin amylase, lipase, trypsin amylase, lipase, trypsin amylase, lipase, trypsin amylase, lipase, trypsin amylase, lipase, trypsin amylase, lipase, trypsin amylase, trypsin, maltase amylase, trypsin, maltase amylase, trypsin, maltase amylase, trypsin, maltase amylase, trypsin, maltase amylase, trypsin, maltase </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.5YI0hUp2vNJ" slidebank="false" type="slide">now that you have named the enzymes.  lets match the enzymes to the functions trypsin breaks down proteins amylase break down starch pepsin breaks down proteins lipase breaks down fats </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.5ZNPNmmv8Z4" slidebank="false" type="slide">now that you have the basic knowledge.  lets apply that basic knowledge to every day situations.   </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6ZiXDU77N6K" slidebank="false" type="slide">type your response here: you had a ham sandwich for lunch.    where in the digestion would the sandwich be broken down.  explain your answer. </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.6JCUtYyrqqC" slidebank="false" type="slide">now that you have identified where some nutrients are broken down in the digestive.  tell me why should a person whose liver is not functioning properly not eat foods that have fats in high concentration. </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.61OGvJGAKTU" slidebank="false" type="slide">type your response here: if your liver is not working why should you cut down on your intake of fatty foods? </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.65hoUN4kxSf" slidebank="false" type="slide">kristen and her sister riley went into the kitchen to get some food to eat. kristen began to tell her sister about how she has been feeling lately </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.5lVfDU8tcaf" slidebank="false" type="slide">type your response here: explain to kristen the scientific principle by which the dica worked to treat the problem. </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.62cjFHL53LZ" slidebank="false" type="slide">always remember the steps 1. identify the science concepts that might match 2. based on the situation select the best science concept 3. link the science concept to the situation 4. put it all together so that it flows follow these steps and you will never fail your use of knowledge questions again </slidetext>
+      <slidetext slideid="6mP7aDwoBrI.61aKhFANiIm" slidebank="false" type="slide">restart course restart course restart course having mastery of use of knowledge skills is very important as it is a heavily weight grading criteria for your cxc examinations.  i am happy you took the time out to follow the guidelines and practice using the skill.  as they say practice makes perfect! thanks for completing the course exit course certificate certificate certificate certificate certificate certificate </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6aqV7jX9o1G" slidebank="false" type="slide">the footballer joseph miller is one of the best footballers in antigua. he plays for one of the top teams in the premier league.  to be on top of his game he has to train every day for at least 3 hours.  added to his training he must ensure that he eats a balanced diet to ensure that he maintains a healthy body.  joseph does not know what that means so he decides to visit his doctor as his coach advised. </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6NUjA4YNubU" slidebank="false" type="slide">hi joseph, your coach told me that you have got a new job as a carpenter, which is excellent.  but it means you have added more to your plate.  from my records i see you train everyday as well.  so tell me how are you coping?  how are you feeling? </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.5mO9lskNNRs" slidebank="false" type="slide">watch the video closely and see if you can assist joseph in explaining what is a balanced diet. </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.5xuXO38oJpv" slidebank="false" type="slide">type your response here: now that you have watched that interesting video lets see what you would have gathered. so, what is a balanced diet and what must be looked at when considering balanced diets for individuals? </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6BrYwTN0CCt" slidebank="false" type="slide">hi james thanks for the call happy to hear what you have found out so far about balanced diet and what must  be considered when determining balanced diets for individuals.  now i want you to look at the nutrients that are required for you. </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6jEDWmQBPrY" slidebank="false" type="slide">let me check the books given by dr. francis to see if i find any information on nutrients. </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.5jFjuhEUZvp" slidebank="false" type="slide">below are three meal plans that are high in different nutrients.  from your research select which meal plan would be best for  joseph? meal plan ‘a’ which is high in starch meal plan ‘a’ which is high in starch meal plan ‘a’ which is high in starch meal plan ‘a’ which is high in starch meal plan ‘a’ which is high in starch meal plan ‘a’ which is high in starch meal plan ‘b’ which is high in protein meal plan ‘b’ which is high in protein meal plan ‘b’ which is high in protein meal plan ‘b’ which is high in protein meal plan ‘b’ which is high in protein meal plan ‘b’ which is high in protein meal plan ‘c’ which is high in starch and fats meal plan ‘c’ which is high in starch and fats meal plan ‘c’ which is high in starch and fats meal plan ‘c’ which is high in starch and fats meal plan ‘c’ which is high in starch and fats meal plan ‘c’ which is high in starch and fats </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.61ut5iRTHl8" slidebank="false" type="slide">type your response here: now its time to explain why meal options a or c is the best choice for joseph. </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6ERy5i87bEN" slidebank="false" type="slide">type your response here: name two other food nutrient that joseph can add to his diet to make it more balanced and explain why those nutrients were selected. </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6ZFe6F435Xb" slidebank="false" type="slide">you are doing great so far in helping joseph.  lets continue to work with joseph on this case </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6XXAmXabTDZ" slidebank="false" type="slide">which menu option that is best suited for a an athlete and carpenter? menu a seasoned yam rice potatoes banana salad buttered-dinner rolls vanilla cake menu c baked chicken buttered dinner rolls yam pie rice sliced apples oranges  menu b milk creole fish stewed liver white rice oranges green salad </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.5y0S1TYWlTD" slidebank="false" type="slide">type your response here: now explain why option c is the best menu for the joseph </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6Zpaj0PVKlY" slidebank="false" type="slide">now that joseph knows about balanced diets, and understands what he needs to eat he decides to do further research on what is the best criteria for selecting food for his 75 year old grandmother </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6S9bOUmOaA8" slidebank="false" type="slide">below is a list of criteria for selecting food. select the two most important criteria for ms. lee, joseph’s   grandmother. colour of food colour of food colour of food colour of food colour of food colour of food vitamin and mineral content vitamin and mineral content vitamin and mineral content vitamin and mineral content vitamin and mineral content vitamin and mineral content quality of food quality of food quality of food quality of food quality of food quality of food energy content of food energy content of food energy content of food energy content of food energy content of food energy content of food softness of food softness of food softness of food softness of food softness of food softness of food packaging of food packaging of food packaging of food packaging of food packaging of food packaging of food </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.5bsR3ErhM82" slidebank="false" type="slide">type your response here: now, explain why vitamins and minerals, and softness of food are correct when selecting food for ms. lee. </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6gij79RKwR9" slidebank="false" type="slide">grandma lee wants you to find out what criteria she must use when selecting food for her 5 year old grandchild, since you helped joseph to find out about hers. </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.6LKDp25OaGH" slidebank="false" type="slide">below is a list of criteria for selecting food. select the two most important criteria for ms. lee, 5 year old grand child. colour of food colour of food colour of food colour of food colour of food colour of food vitamin and mineral content vitamin and mineral content vitamin and mineral content vitamin and mineral content vitamin and mineral content vitamin and mineral content quality of food quality of food quality of food quality of food quality of food quality of food energy content of food energy content of food energy content of food energy content of food energy content of food energy content of food softness of food softness of food softness of food softness of food softness of food softness of food packaging of food packaging of food packaging of food packaging of food packaging of food packaging of food </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.5mZNMKlSLFb" slidebank="false" type="slide">type your response here: now, explain why vitamin and mineral content as well as energy content is important to consider when selecting food for a 5 year old? </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.64RrCV8NdZn" slidebank="false" type="slide">type your response here: it’s time to put it all together.  since we have identified different science concepts and give explanations based on joseph’s case.  it is time to write an essay outlining what type of food joseph would need in his diet so that he can play, work and train .  also explain what he must think about when preparing foods for ms. lee and her grandchild. </slidetext>
+      <slidetext slideid="5dKmCm7UhJa.5ljO1iLWCwn" slidebank="false" type="slide">restart course restart course restart course having mastery of use of knowledge skills is very important as it is a heavily weight grading criteria for your cxc examinations.  i am happy you took the time out to follow the guidelines and practice using the skill.  as they say practice makes perfect! thanks for completing the course exit course certificate certificate certificate certificate certificate certificate </slidetext>
+      <slidetext slideid="5gnt21bdFBU.5uTcviSJylU" slidebank="false" type="slide">hi there i am mr. james and i am a farmer in the village of all saints.  here i am on my farm on a regular day.  on the farm i have livestock and a vegetable garden. i would work from 6 am to 4 pm every day ensuring that the farm runs efficiently. </slidetext>
+      <slidetext slideid="5gnt21bdFBU.5tbU8RltjuA" slidebank="false" type="slide">the farmer i face a problem and i need your help. i tend to get tired very easily when doing my daily activities on the farm and i do not know why when i think i eat properly. my daughter told me that i am not eating the right types of foods since i am eating mainly chickens from my farm and vegetables from my wonderful garden. i thought this type of food was good for me.  please help me! hint hint hint hint hint hint </slidetext>
+      <slidetext slideid="5gnt21bdFBU.5hkpoV7VAKn" slidebank="false" type="slide">chicken provides proteins that builds and repairs body tissues back back back back back back </slidetext>
+      <slidetext slideid="5gnt21bdFBU.6nOfjHriagT" slidebank="false" type="slide">type your response here what is the science concept needed here? </slidetext>
+      <slidetext slideid="5gnt21bdFBU.6qOO505M38Y" slidebank="false" type="slide">type response here food groups and types of food that the nutrient can be found in? </slidetext>
+      <slidetext slideid="5gnt21bdFBU.5mDvJfUPvX8" slidebank="false" type="slide">type your response here putting it together give the type of foods groups that should be in the farmers diet and why. </slidetext>
+      <slidetext slideid="5gnt21bdFBU.6KMUNb0jsVe" slidebank="false" type="slide">excellent work so far! now lets look at menu plans and see if we can select correct menu options for your farmer. ready, lets go! </slidetext>
+      <slidetext slideid="5gnt21bdFBU.5xWLDvIbeJ5" slidebank="false" type="slide">now that you have thought outside the box and placed it all together look at the images below and select which menu would be the best option for our farmer menu a baked chicken broccoli green salad stewed red beans  menu b fried fish lentil peas stew steamed vegetables green salad  menu c baked chicken broccoli green salad green bananas and pumpkin salad  menu d baked chicken fried dumplings broccoli cold slaw  </slidetext>
+      <slidetext slideid="5gnt21bdFBU.6bx6u3KEqad" slidebank="false" type="slide">type your response here fully explain why menu c is the correct menu option for the farmer </slidetext>
+      <slidetext slideid="5gnt21bdFBU.6NcBp0699XW" slidebank="false" type="slide">this is the farmers wife jamie. she has some news for her husband </slidetext>
+      <slidetext slideid="5gnt21bdFBU.61wKQIssspw" slidebank="false" type="slide">hello mr. and mrs james, how are you doing today </slidetext>
+      <slidetext slideid="5gnt21bdFBU.5hgJr0qMWGO" slidebank="false" type="slide">the results show that you are indeed pregnant thus you need to learn about correct diet for yourself and the baby so that you can stay healthy during the pregnancy and deliver a healthy baby.  but instead of me telling you what you will need to do, i am going give you a set of books and you are going to research and come back and tell me what you found out. </slidetext>
+      <slidetext slideid="5gnt21bdFBU.6ae1fygjVrE" slidebank="false" type="slide">food nutrients that should be eating in extra amounts by a pregnant woman fats and oils fats and oils fats and oils fats and oils fats and oils fats and oils carbohydrates carbohydrates carbohydrates carbohydrates carbohydrates carbohydrates fibre fibre fibre fibre fibre fibre vitamins and minerals vitamins and minerals vitamins and minerals vitamins and minerals vitamins and minerals vitamins and minerals protein protein protein protein protein protein </slidetext>
+      <slidetext slideid="5gnt21bdFBU.5g5TIy3hSwQ" slidebank="false" type="slide">after doing some research on nutrients and benefits for her and baby during pregnancy.  the farmer’s wife decided to try and match nutrients to the benefits.  see if you can help her. fats and oils development of baby’s brain and cells vitamin c helps in the absorption of iron, which is needed for formation of placenta and red blood cells.  it is also important for development of healthy bones and gums. carbohydrates provides energy for the mother and the baby protein helps in the development of cells and muscles of the growing baby. folic acid allows for complete development of baby’s spine and the formation of red blood cells </slidetext>
+      <slidetext slideid="5gnt21bdFBU.6SWuj5vYvni" slidebank="false" type="slide">now that you have matched the nutrients to the benefits, let’s look at the food sources to go with each nutrient. protein eggs, fish, peas and beans fats and oils nuts, eggs, avocado calcium and vitamin d milk, broccoli, sardines vitamin c cherry, tomato carbohydrate sweet potato, pasta, rice </slidetext>
+      <slidetext slideid="5gnt21bdFBU.6Mq3dvCuqVp" slidebank="false" type="slide">which menu option that is best suited for a pregnant woman? menu a seasoned yam rice potatoes banana salad buttered-dinner rolls vanilla cake menu c baked chicken buttered dinner rolls yam pie rice sliced apples oranges  menu b milk creole fish stewed liver white rice oranges green salad </slidetext>
+      <slidetext slideid="5gnt21bdFBU.5wVFAw9g0Xc" slidebank="false" type="slide">type response here give the reason for the menu b option being the best suited for a pregnant woman? </slidetext>
+      <slidetext slideid="5gnt21bdFBU.5aaLWIQeucI" slidebank="false" type="slide">type your text here from your research conducted, what will your body do if you do not take in enough calcium and what will happen to you? hint hint hint hint hint hint </slidetext>
+      <slidetext slideid="5gnt21bdFBU.6QhHBH0aD87" slidebank="false" type="slide">back back back back back back </slidetext>
+      <slidetext slideid="5gnt21bdFBU.6PNAShXpGoV" slidebank="false" type="slide">type your response here let us put it all together in the form of an essay to give the doctor on the research that was done.  in the essay you are required to name at least 5 nutrients needed by the mother, the benefits of the nutrients and the food sources for the different nutrients. </slidetext>
+      <slidetext slideid="5gnt21bdFBU.5qfoEa431zc" slidebank="false" type="slide">restart course restart course restart course having mastery of use of knowledge skills is very important as it is a heavily weight grading criteria for your cxc examinations.  i am happy you took the time out to follow the guidelines and practice using the skill.  as they say practice makes perfect! thanks for completing the course exit course certificate certificate certificate certificate certificate certificate </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6XYDPvZ2krN" slidebank="false" type="slide">lets identify the science concept behind chemicals used in food tests </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.5bJlWfG5yCD" slidebank="false" type="slide">type your answer here: benedict solution is used to test for which nutrient?  just name the nutrient </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.60w94YbeiiS" slidebank="false" type="slide">type your response here: iodine is used to test for the presence of which nutrient? just name the nutrient </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.5jDGG6thTIH" slidebank="false" type="slide">type your response here: biuret reagent is used to test for what food nutrient? just name the nutrient </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6lk1DFPWDrn" slidebank="false" type="slide">type your response here: ethanol can be used to test for which food nutrient?  just give the name of the nutrient </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6N5ipZ46GdS" slidebank="false" type="slide">now that we have looked at and answered those questions, lets get back to the experiment </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6DKRR8eKzBU" slidebank="false" type="slide">type your response here: explain why the air hole should be adjusted to change the flame of the bunsen burner. </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.5rvBopPnuvC" slidebank="false" type="slide">now that you have completed the lab lets engage in some application or use of knowledge. as we go through the practice always remember the steps. 1.  identify the possible science concepts 2. selecting the right science concept 3. link the science concept to the situation </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6hkNQBCnQxg" slidebank="false" type="slide">a blue black colour change in the test done with iodine indicates what? absents of starch in the food absents of starch in the food absents of starch in the food absents of starch in the food absents of starch in the food absents of starch in the food presents of starch in the food presents of starch in the food presents of starch in the food presents of starch in the food presents of starch in the food presents of starch in the food </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.5lu0p06mtq6" slidebank="false" type="slide">a  purple colour change in the test done with protein indicates what? absents of protein in the food absents of protein in the food absents of protein in the food absents of protein in the food absents of protein in the food absents of protein in the food presents of protein in the food presents of protein in the food presents of protein in the food presents of protein in the food presents of protein in the food presents of protein in the food </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.64U9g0i8fA0" slidebank="false" type="slide">type your response here: what does the observation with the test done using benedict solution mean? </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6abhp4vgI5b" slidebank="false" type="slide">type your response here: what does the observation with the test done using the ethanol mean? </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6epxGS4Jfvc" slidebank="false" type="slide">so now you know that cashew nuts contains fats, protein and starch.  1.as a teenager who is very active what food nutrients should you eat a lot of and why? 2. would cashew nuts be a good food  for body builders to include as a snack? </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6JuiYPMplXb" slidebank="false" type="slide">type your response here would cashew nuts be a good food source for body builders to include as a snack?  remember to give a reason for your answer </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6LI4uGfWaVp" slidebank="false" type="slide">type your response here as a teenager who is very active what food nutrients should you eat a lot of and why? </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6biSkVL9zox" slidebank="false" type="slide">type your response here: your mother made dinner for you.  the meal consisted of baked chicken and bread.  is this a balanced meal for you and give a reason for your response. </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6p96SdJgPcs" slidebank="false" type="slide">so lets see what is coming next. are you ready? lets go! </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6CewkOFCkAF" slidebank="false" type="slide">after conducting the lab and telling grandma about what you did,she mentioned that she was having cramps and constipation.  she was wondering if it had to do with something she was eating. </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6hIG2GAZFiv" slidebank="false" type="slide">type your response here: food nutrient that grandma should increase and why.  examples of the food she needs to eat. </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6icgJmCZREM" slidebank="false" type="slide">excellent work in the lab and with the application of knowledge gained </slidetext>
+      <slidetext slideid="6nwKQoZuYqs.6XQ5gCrrL1v" slidebank="false" type="slide">restart course restart course restart course having mastery of use of knowledge skills is very important as it is a heavily grading criteria for your cxc examinations.  i am happy you took the time out to follow the guidelines and practice using the skill.  as they say practice makes perfect! thanks for completing the course exit course certificate certificate certificate certificate certificate certificate </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#B4B4B4'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://www.youtube.com/watch?v=OHIgjP0c24Y" image="story_content/url.png" title="Balanced diet for pregnant women" />
+      <resource url="https://www.youtube.com/watch?v=z39cl0evS98" image="story_content/url.png" title="Caribbean food groups" />
+      <resource url="https://www.youtube.com/watch?v=qefWfqcaOGo" image="story_content/url.png" title="Diet for a pregnant woman" />
+      <resource url="https://www.youtube.com/watch?v=xxAzcPia_KE" image="story_content/url.png" title="Important vitamins for pregnancy" />
+      <resource url="https://www.youtube.com/watch?v=Gj44JIf2bMc" image="story_content/url.png" title="Diet for an athelete" />
+      <resource url="https://www.youtube.com/watch?v=YimuIdEZSNY" image="story_content/url.png" title="Food nutrients and functions" />
+      <resource url="story_content/external_files/The main nutrients needed by the body.pdf" image="story_content/5gIe5h7NMoz.png" title="Nutrients needed by the body" />
+      <resource url="https://www.youtube.com/watch?v=3wZIk6S326o" image="story_content/url.png" title="Importance of calcium for pregnant woman" />
+      <resource url="https://www.youtube.com/watch?v=mKUV2TBy_EA" image="story_content/url.png" title="The digestive system" />
+      <resource url="story_content/external_files/Enzymes and digestive juices.pdf" image="story_content/5o7YNcy3nls.png" title="Human digestive system" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5dKmCm7UhJa.6NUjA4YNubU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Doctor Francis why do I always feel so tired.  I know I can play better but I just do not have the energy that I use to have before taking up the new job&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block /&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5gnt21bdFBU.5tbU8RltjuA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="I face a problem, and I need your help. I tend to get tired, very easily when doing my daily activities on the farm, and I do not know why, when I think I eat properly. My daughter told me, that I am not eating the right types of foods since I am eating mainly chickens from my farm, and vegetables from my wonderful garden. I thought this type of food was good for me.  Please help me!" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5gnt21bdFBU.6nOfjHriagT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Correct response is.  Food nutrient that provides energy, which is carbohydrates" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5gnt21bdFBU.6qOO505M38Y" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Nutrient can be found in the food group, staples, and in starchy foods such as ground provisions for example yams, potatoes, cassava.  it can also be found in bread, rice and pasta.  Click continue after comparing responses." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5gnt21bdFBU.5mDvJfUPvX8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Compare your response to the one below.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="This is a basic outline, of what should be in your response.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Foods include carbohydrates, as they are needed to provide him with the energy needed to perform all his tasks.  He also needs proteins, to build and repair his body tissues, that would become damaged from all the hard activities he is involved in.  He would also need fruits, and vegetables, that would provide him with vitamins, and minerals, to help maintain a healthy body system.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Click continue, when you are finished comparing your responses." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5gnt21bdFBU.6bx6u3KEqad" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" Justification="Center" /&gt;
+      &lt;Span Text="Menu C is a fully balanced meal.  It contains the nutrients that the farmer would need to carry out his daily activities.  It contains carbohydrates, that is needed to provide energy. It contains proteins, to repair torn muscles and body tissues and it contains vegetables that would provide vitamins, and minerals for healthy life.  It also contains fibre, that prevents constipation.  When you have completed the review of your response click continue" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Balanced Diet">Foods from the food groups to suit a persons age, gender and physical activity</term>
+      <term title="Food Groups">There are six caribbean food groups which are staples, food from animal sources, vegetables, fats and oils, legumes, fruits</term>
+      <term title="Unbalanced diet">Eating too much or too little of the required portions of food from the different food groups</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
